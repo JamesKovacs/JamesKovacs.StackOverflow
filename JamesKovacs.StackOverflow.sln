@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpHacking", "CSharpHacking\CSharpHacking.csproj", "{6CF4FA8C-1081-4D17-8C8F-61DEB8E71ED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NhHacking", "NhHacking\NhHacking.csproj", "{B52427A7-DD01-4D42-BB8F-AC45F434F633}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentNhHacking", "FluentNhHacking\FluentNhHacking.csproj", "{17528EAE-7DB5-48E7-8370-ED29B310D02A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CF4FA8C-1081-4D17-8C8F-61DEB8E71ED0}.Debug|x86.ActiveCfg = Debug|x86
+		{6CF4FA8C-1081-4D17-8C8F-61DEB8E71ED0}.Debug|x86.Build.0 = Debug|x86
+		{6CF4FA8C-1081-4D17-8C8F-61DEB8E71ED0}.Release|x86.ActiveCfg = Release|x86
+		{6CF4FA8C-1081-4D17-8C8F-61DEB8E71ED0}.Release|x86.Build.0 = Release|x86
+		{B52427A7-DD01-4D42-BB8F-AC45F434F633}.Debug|x86.ActiveCfg = Debug|x86
+		{B52427A7-DD01-4D42-BB8F-AC45F434F633}.Debug|x86.Build.0 = Debug|x86
+		{B52427A7-DD01-4D42-BB8F-AC45F434F633}.Release|x86.ActiveCfg = Release|x86
+		{B52427A7-DD01-4D42-BB8F-AC45F434F633}.Release|x86.Build.0 = Release|x86
+		{17528EAE-7DB5-48E7-8370-ED29B310D02A}.Debug|x86.ActiveCfg = Debug|x86
+		{17528EAE-7DB5-48E7-8370-ED29B310D02A}.Debug|x86.Build.0 = Debug|x86
+		{17528EAE-7DB5-48E7-8370-ED29B310D02A}.Release|x86.ActiveCfg = Release|x86
+		{17528EAE-7DB5-48E7-8370-ED29B310D02A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
