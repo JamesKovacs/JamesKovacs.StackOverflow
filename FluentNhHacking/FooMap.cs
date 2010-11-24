@@ -5,7 +5,12 @@ namespace FluentNhHacking {
         public FooMap() {
             Id(x => x.Id).GeneratedBy.GuidComb();
             Map(x => x.Name);
-            HasManyToMany(x => x.Bars)
+            Component(x => x.FullName, m => {
+                                           m.Map(x => x.Salutation);
+                                           m.Map(x => x.Forename);
+                                           m.Map(x => x.Surname);
+                                       });
+            HasMany(x => x.Bars)
                 .Cascade.AllDeleteOrphan()
                 .Not.LazyLoad()
                 .Fetch.Join();

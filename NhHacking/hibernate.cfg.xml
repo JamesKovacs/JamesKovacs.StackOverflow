@@ -10,5 +10,7 @@
     <property name="query.substitutions">true 1, false 0, yes 'Y', no 'N'</property>
     <property name="adonet.batch_size">500</property>
     <mapping assembly="NhHacking" />
+    <listener type="load" class="NhHacking.CustomLoadListener, NhHacking"/>
+    <listener type="save-update" class="NhHacking.CustomSaveOrUpdateListener, NhHacking"/>
   </session-factory>
 </hibernate-configuration>
