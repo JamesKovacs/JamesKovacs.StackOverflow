@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="fm.web"
+                   assembly="NhHacking">
+  <class name="User" table="[user]">
+    <id name="Id">
+      <column name="id" />
+      <generator class="native" />
+    </id>
+    <property name="Username" />
+    <property name="Password" />
+    <property name="Datecreated" />
+    <many-to-one name="Usertype"
+                 class="UserType"
+                 column="[type]"
+                 cascade="all"
+                 lazy="false"
+                 />
+    <property name="Firstname" />
+    <property name="Lastname" />
+    <property name="Email" />
+  </class>
+  <class name="UserType" table="[user_type]">
+    <id name="Id">
+      <column name="id" />
+      <generator class="native" />
+    </id>
+    <property name="Title" />
+  </class>
+</hibernate-mapping>
